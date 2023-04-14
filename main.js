@@ -7,7 +7,7 @@ GenerateBtn.addEventListener('click', ()=>
 {
     if(UserInput.value == "")
     {
-        alert("enter some values, bakchodi na krein please");
+        alert("Enter some values please !");
     }
     else
     {
@@ -15,7 +15,7 @@ GenerateBtn.addEventListener('click', ()=>
         QRCode.src = `https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${UserInput.value}`;
         // QRCode.src = "QR Code.png";
         UserInput.value = "";
-        alert("waah bete mojj krdi");
+        alert("It's Done My Friend !");
         
     }
 });
